@@ -1,6 +1,6 @@
 { "name" : "juggernaut"
 , "description" : "Realtime PubSub server push."
-, "version" : "2.1.1"
+, "version" : "2.1.2"
 , "author" : "maccman"
 , "licenses" :
   [ { "type" : "MIT"
@@ -9,15 +9,15 @@
   ]
 , "repository" :
   { "type" : "git"
-  , "url" : "http://github.com/maccman/juggernaut.git"
+  , "url" : "http://github.com/redterror/juggernaut.git"
   }
-, "engine" : [ "node >=0.1.102" ]
+, "engine" : [ "node >= 0.8.0" ]
 , "main" : "./index"
 , "bin" : { "juggernaut" : "./server.js" }
 , "dependencies" :
-  { "socket.io" : "=0.8.7"
-  , "redis" : "~0.7.1"
-  , "node-static-maccman" : "~0.5.4"
-  , "optimist": "~0.2.3"
+  { "socket.io" :   "=0.9.14"
+  , "redis" :       "=0.8.2"
+  , "node-static" : "~0.6.7"
+  , "optimist":     "~0.3.5"
   }
 }
